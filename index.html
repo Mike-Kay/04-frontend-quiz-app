@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Frontend quiz app</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="nav-center cnt">
+        <header class="nav-header">
+          <img src="" alt="" class="header-icon" />
+        </header>
+        <div class="nav-icons">
+          <img alt="" class="light-icon icon-img" />
+          <button class="toggle-btn">
+            <span class="toggle"></span>
+          </button>
+          <img alt="" class="dark-icon icon-img" />
+        </div>
+      </div>
+    </nav>
+    <!-- end of Navbar -->
+
+    <main class="main cnt quiz-cnt">
+      <header class="header">
+        <h1>
+          <span class="title">Welcome to the</span> <br />
+          <span>Frontend Quiz!</span>
+        </h1>
+        <p class="i-text">Pick a subject to get started.</p>
+      </header>
+      <section class="pages option-list">
+        <a href="./page.html?id=html" class="quiz h-quiz">
+          <img src="./assets/images/icon-html.svg" alt="" class="quiz-icon" />
+          <span>HTML</span>
+        </a>
+        <a href="./page.html?id=css" class="quiz c-quiz">
+          <img src="./assets/images/icon-css.svg" alt="" class="quiz-icon" />
+          <span>CSS</span>
+        </a>
+        <a href="./page.html?id=javascript" class="quiz j-quiz">
+          <img src="./assets/images/icon-js.svg" alt="" class="quiz-icon" />
+          <span>Javascript</span>
+        </a>
+        <a href="./page.html?id=accessibility" class="quiz a-quiz">
+          <img
+            src="./assets/images/icon-accessibility.svg"
+            alt=""
+            class="quiz-icon"
+          />
+          <span>Accessibility</span>
+        </a>
+      </section>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
