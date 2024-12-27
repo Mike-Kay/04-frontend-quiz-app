@@ -70,3 +70,4 @@ Writing simpler and more refined code.
 ## Author
 
 - Frontend Mentor - [@Mike-Kay](https://www.frontendmentor.io/profile/Mike-Kay)
+- Github - [@Mike-Kay](https://github.com/Mike-Kay)
