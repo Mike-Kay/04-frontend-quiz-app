@@ -204,7 +204,7 @@ const quizSessionData = (quiz, pageID) => {
     const quizID = `${pageID}Quiz`;
     let quizClass = title.slice(0, 1).toLowerCase();
     navHeader.classList.add(`quiz`, `${quizClass}-quiz`);
-    navHeader.innerHTML = `<img src="${icon}" alt="" class="header-icon quiz-icon" /> <span>${title}</span>`;
+    navHeader.innerHTML = `<img src="${icon}" alt="quiz-icon-image" class="header-icon quiz-icon" /> <span>${title}</span>`;
     loading.style.display = "none";
 
     const quizType = getLocalStorage1(`${quizID}`);
